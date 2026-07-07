@@ -13,8 +13,12 @@ target/
 .springBeans
 .sts4-cache
 
+### git ###
+.gitattributes
+
 ### IntelliJ IDEA ###
 .idea
+.env
 *.iws
 *.iml
 *.ipr
@@ -31,3 +35,11 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Maven ###
+.mvn/
+mvnw
+mvnw.cmd
+
+### Structure Project ###
+/src/main/resources/
